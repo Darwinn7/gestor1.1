@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.img-fluid {
+    max-width: 150px;  /* Ajuste del tamaño máximo del logo */
+    height: auto;
+}
+
+.card-title img {
+    width: 30px; /* Ajuste del tamaño de los iconos de categorías */
+    height: 30px;
+    margin-right: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+/* Centrar el botón de "Registrar Nuevo Gasto" */
+.mb-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
